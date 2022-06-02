@@ -23,6 +23,8 @@ class DetailViewController: UIViewController {
         viewModel.getDetailMovie { model in
             let url = self.viewModel.getImgUrl(model?.backdrop_path ?? "")
             DispatchQueue.main.async {
+                
+            self.navigationItem.title = model?.title
             let data = try? Data(contentsOf: url!)
             if let data = data {
                     self.imageView.image = UIImage(data: data)
