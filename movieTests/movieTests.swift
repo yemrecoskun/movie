@@ -1,14 +1,14 @@
 //
-//  mobilliumTests.swift
-//  mobilliumTests
+//  movieTests.swift
+//  movieTests
 //
 //  Created by T66140 on 1.06.2022.
 //
 
 import XCTest
-@testable import mobillium
+@testable import movie
 
-class mobilliumTests: XCTestCase {
+class movieTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

@@ -13,9 +13,9 @@
 		441BBDAD2847532C00BFC6A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 441BBDAB2847532C00BFC6A9 /* Main.storyboard */; };
 		441BBDAF2847532C00BFC6A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 441BBDAE2847532C00BFC6A9 /* Assets.xcassets */; };
 		441BBDB22847532C00BFC6A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 441BBDB02847532C00BFC6A9 /* LaunchScreen.storyboard */; };
-		441BBDBD2847532C00BFC6A9 /* mobilliumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441BBDBC2847532C00BFC6A9 /* mobilliumTests.swift */; };
-		441BBDC72847532C00BFC6A9 /* mobilliumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441BBDC62847532C00BFC6A9 /* mobilliumUITests.swift */; };
-		441BBDC92847532C00BFC6A9 /* mobilliumUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441BBDC82847532C00BFC6A9 /* mobilliumUITestsLaunchTests.swift */; };
+		441BBDBD2847532C00BFC6A9 /* movieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441BBDBC2847532C00BFC6A9 /* movieTests.swift */; };
+		441BBDC72847532C00BFC6A9 /* movieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441BBDC62847532C00BFC6A9 /* movieUITests.swift */; };
+		441BBDC92847532C00BFC6A9 /* movieUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441BBDC82847532C00BFC6A9 /* movieUITestsLaunchTests.swift */; };
 		441BBDD62847535100BFC6A9 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441BBDD52847535100BFC6A9 /* TableViewCell.swift */; };
 		44425A4628490C7E00B70C63 /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44425A4528490C7E00B70C63 /* Endpoints.swift */; };
 		44425A4C28490D8500B70C63 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44425A4B28490D8500B70C63 /* DetailViewController.swift */; };
@@ -45,7 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		441BBDA22847532C00BFC6A9 /* mobillium.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mobillium.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		441BBDA22847532C00BFC6A9 /* movie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = movie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		441BBDA52847532C00BFC6A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		441BBDA72847532C00BFC6A9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		441BBDA92847532C00BFC6A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -53,11 +53,11 @@
 		441BBDAE2847532C00BFC6A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		441BBDB12847532C00BFC6A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		441BBDB32847532C00BFC6A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		441BBDB82847532C00BFC6A9 /* mobilliumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mobilliumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		441BBDBC2847532C00BFC6A9 /* mobilliumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mobilliumTests.swift; sourceTree = "<group>"; };
-		441BBDC22847532C00BFC6A9 /* mobilliumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mobilliumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		441BBDC62847532C00BFC6A9 /* mobilliumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mobilliumUITests.swift; sourceTree = "<group>"; };
-		441BBDC82847532C00BFC6A9 /* mobilliumUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mobilliumUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		441BBDB82847532C00BFC6A9 /* movieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = movieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		441BBDBC2847532C00BFC6A9 /* movieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = movieTests.swift; sourceTree = "<group>"; };
+		441BBDC22847532C00BFC6A9 /* movieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = movieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		441BBDC62847532C00BFC6A9 /* movieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = movieUITests.swift; sourceTree = "<group>"; };
+		441BBDC82847532C00BFC6A9 /* movieUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = movieUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		441BBDD52847535100BFC6A9 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		44425A4528490C7E00B70C63 /* Endpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
 		44425A4B28490D8500B70C63 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
@@ -97,9 +97,9 @@
 		441BBD992847532B00BFC6A9 = {
 			isa = PBXGroup;
 			children = (
-				441BBDA42847532C00BFC6A9 /* mobillium */,
-				441BBDBB2847532C00BFC6A9 /* mobilliumTests */,
-				441BBDC52847532C00BFC6A9 /* mobilliumUITests */,
+				441BBDA42847532C00BFC6A9 /* movie */,
+				441BBDBB2847532C00BFC6A9 /* movieTests */,
+				441BBDC52847532C00BFC6A9 /* movieUITests */,
 				441BBDA32847532C00BFC6A9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -107,14 +107,14 @@
 		441BBDA32847532C00BFC6A9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				441BBDA22847532C00BFC6A9 /* mobillium.app */,
-				441BBDB82847532C00BFC6A9 /* mobilliumTests.xctest */,
-				441BBDC22847532C00BFC6A9 /* mobilliumUITests.xctest */,
+				441BBDA22847532C00BFC6A9 /* movie.app */,
+				441BBDB82847532C00BFC6A9 /* movieTests.xctest */,
+				441BBDC22847532C00BFC6A9 /* movieUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		441BBDA42847532C00BFC6A9 /* mobillium */ = {
+		441BBDA42847532C00BFC6A9 /* movie */ = {
 			isa = PBXGroup;
 			children = (
 				44425A4A28490D6C00B70C63 /* DetailPage */,
@@ -127,24 +127,24 @@
 				441BBDB02847532C00BFC6A9 /* LaunchScreen.storyboard */,
 				441BBDB32847532C00BFC6A9 /* Info.plist */,
 			);
-			path = mobillium;
+			path = movie;
 			sourceTree = "<group>";
 		};
-		441BBDBB2847532C00BFC6A9 /* mobilliumTests */ = {
+		441BBDBB2847532C00BFC6A9 /* movieTests */ = {
 			isa = PBXGroup;
 			children = (
-				441BBDBC2847532C00BFC6A9 /* mobilliumTests.swift */,
+				441BBDBC2847532C00BFC6A9 /* movieTests.swift */,
 			);
-			path = mobilliumTests;
+			path = movieTests;
 			sourceTree = "<group>";
 		};
-		441BBDC52847532C00BFC6A9 /* mobilliumUITests */ = {
+		441BBDC52847532C00BFC6A9 /* movieUITests */ = {
 			isa = PBXGroup;
 			children = (
-				441BBDC62847532C00BFC6A9 /* mobilliumUITests.swift */,
-				441BBDC82847532C00BFC6A9 /* mobilliumUITestsLaunchTests.swift */,
+				441BBDC62847532C00BFC6A9 /* movieUITests.swift */,
+				441BBDC82847532C00BFC6A9 /* movieUITestsLaunchTests.swift */,
 			);
-			path = mobilliumUITests;
+			path = movieUITests;
 			sourceTree = "<group>";
 		};
 		44425A4728490D1B00B70C63 /* NetworkLayer */ = {
@@ -189,9 +189,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		441BBDA12847532C00BFC6A9 /* mobillium */ = {
+		441BBDA12847532C00BFC6A9 /* movie */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 441BBDCC2847532C00BFC6A9 /* Build configuration list for PBXNativeTarget "mobillium" */;
+			buildConfigurationList = 441BBDCC2847532C00BFC6A9 /* Build configuration list for PBXNativeTarget "movie" */;
 			buildPhases = (
 				441BBD9E2847532C00BFC6A9 /* Sources */,
 				441BBD9F2847532C00BFC6A9 /* Frameworks */,
@@ -201,14 +201,14 @@
 			);
 			dependencies = (
 			);
-			name = mobillium;
+			name = movie;
 			productName = mobillium;
-			productReference = 441BBDA22847532C00BFC6A9 /* mobillium.app */;
+			productReference = 441BBDA22847532C00BFC6A9 /* movie.app */;
 			productType = "com.apple.product-type.application";
 		};
-		441BBDB72847532C00BFC6A9 /* mobilliumTests */ = {
+		441BBDB72847532C00BFC6A9 /* movieTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 441BBDCF2847532C00BFC6A9 /* Build configuration list for PBXNativeTarget "mobilliumTests" */;
+			buildConfigurationList = 441BBDCF2847532C00BFC6A9 /* Build configuration list for PBXNativeTarget "movieTests" */;
 			buildPhases = (
 				441BBDB42847532C00BFC6A9 /* Sources */,
 				441BBDB52847532C00BFC6A9 /* Frameworks */,
@@ -219,14 +219,14 @@
 			dependencies = (
 				441BBDBA2847532C00BFC6A9 /* PBXTargetDependency */,
 			);
-			name = mobilliumTests;
+			name = movieTests;
 			productName = mobilliumTests;
-			productReference = 441BBDB82847532C00BFC6A9 /* mobilliumTests.xctest */;
+			productReference = 441BBDB82847532C00BFC6A9 /* movieTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		441BBDC12847532C00BFC6A9 /* mobilliumUITests */ = {
+		441BBDC12847532C00BFC6A9 /* movieUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 441BBDD22847532C00BFC6A9 /* Build configuration list for PBXNativeTarget "mobilliumUITests" */;
+			buildConfigurationList = 441BBDD22847532C00BFC6A9 /* Build configuration list for PBXNativeTarget "movieUITests" */;
 			buildPhases = (
 				441BBDBE2847532C00BFC6A9 /* Sources */,
 				441BBDBF2847532C00BFC6A9 /* Frameworks */,
@@ -237,9 +237,9 @@
 			dependencies = (
 				441BBDC42847532C00BFC6A9 /* PBXTargetDependency */,
 			);
-			name = mobilliumUITests;
+			name = movieUITests;
 			productName = mobilliumUITests;
-			productReference = 441BBDC22847532C00BFC6A9 /* mobilliumUITests.xctest */;
+			productReference = 441BBDC22847532C00BFC6A9 /* movieUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -265,7 +265,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 441BBD9D2847532B00BFC6A9 /* Build configuration list for PBXProject "mobillium" */;
+			buildConfigurationList = 441BBD9D2847532B00BFC6A9 /* Build configuration list for PBXProject "movie" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -278,9 +278,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				441BBDA12847532C00BFC6A9 /* mobillium */,
-				441BBDB72847532C00BFC6A9 /* mobilliumTests */,
-				441BBDC12847532C00BFC6A9 /* mobilliumUITests */,
+				441BBDA12847532C00BFC6A9 /* movie */,
+				441BBDB72847532C00BFC6A9 /* movieTests */,
+				441BBDC12847532C00BFC6A9 /* movieUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -336,7 +336,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				441BBDBD2847532C00BFC6A9 /* mobilliumTests.swift in Sources */,
+				441BBDBD2847532C00BFC6A9 /* movieTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,8 +344,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				441BBDC72847532C00BFC6A9 /* mobilliumUITests.swift in Sources */,
-				441BBDC92847532C00BFC6A9 /* mobilliumUITestsLaunchTests.swift in Sources */,
+				441BBDC72847532C00BFC6A9 /* movieUITests.swift in Sources */,
+				441BBDC92847532C00BFC6A9 /* movieUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,12 +354,12 @@
 /* Begin PBXTargetDependency section */
 		441BBDBA2847532C00BFC6A9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 441BBDA12847532C00BFC6A9 /* mobillium */;
+			target = 441BBDA12847532C00BFC6A9 /* movie */;
 			targetProxy = 441BBDB92847532C00BFC6A9 /* PBXContainerItemProxy */;
 		};
 		441BBDC42847532C00BFC6A9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 441BBDA12847532C00BFC6A9 /* mobillium */;
+			target = 441BBDA12847532C00BFC6A9 /* movie */;
 			targetProxy = 441BBDC32847532C00BFC6A9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -508,7 +508,8 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = mobillium/Info.plist;
+				INFOPLIST_FILE = movie/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = movie;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -519,7 +520,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = team.mobillium;
+				PRODUCT_BUNDLE_IDENTIFIER = team.movie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -535,7 +536,8 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = mobillium/Info.plist;
+				INFOPLIST_FILE = movie/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = movie;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -546,7 +548,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = team.mobillium;
+				PRODUCT_BUNDLE_IDENTIFIER = team.movie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -564,12 +566,12 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = team.mobilliumTests;
+				PRODUCT_BUNDLE_IDENTIFIER = team.movieTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mobillium.app/mobillium";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/movie.app/movie";
 			};
 			name = Debug;
 		};
@@ -583,12 +585,12 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = team.mobilliumTests;
+				PRODUCT_BUNDLE_IDENTIFIER = team.movieTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mobillium.app/mobillium";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/movie.app/movie";
 			};
 			name = Release;
 		};
@@ -600,12 +602,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = team.mobilliumUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = team.movieUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = mobillium;
+				TEST_TARGET_NAME = movie;
 			};
 			name = Debug;
 		};
@@ -617,19 +619,19 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = team.mobilliumUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = team.movieUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = mobillium;
+				TEST_TARGET_NAME = movie;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		441BBD9D2847532B00BFC6A9 /* Build configuration list for PBXProject "mobillium" */ = {
+		441BBD9D2847532B00BFC6A9 /* Build configuration list for PBXProject "movie" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				441BBDCA2847532C00BFC6A9 /* Debug */,
@@ -638,7 +640,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		441BBDCC2847532C00BFC6A9 /* Build configuration list for PBXNativeTarget "mobillium" */ = {
+		441BBDCC2847532C00BFC6A9 /* Build configuration list for PBXNativeTarget "movie" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				441BBDCD2847532C00BFC6A9 /* Debug */,
@@ -647,7 +649,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		441BBDCF2847532C00BFC6A9 /* Build configuration list for PBXNativeTarget "mobilliumTests" */ = {
+		441BBDCF2847532C00BFC6A9 /* Build configuration list for PBXNativeTarget "movieTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				441BBDD02847532C00BFC6A9 /* Debug */,
@@ -656,7 +658,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		441BBDD22847532C00BFC6A9 /* Build configuration list for PBXNativeTarget "mobilliumUITests" */ = {
+		441BBDD22847532C00BFC6A9 /* Build configuration list for PBXNativeTarget "movieUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				441BBDD32847532C00BFC6A9 /* Debug */,

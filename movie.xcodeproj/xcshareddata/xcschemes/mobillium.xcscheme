@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "441BBDA12847532C00BFC6A9"
-               BuildableName = "mobillium.app"
-               BlueprintName = "mobillium"
-               ReferencedContainer = "container:mobillium.xcodeproj">
+               BuildableName = "movie.app"
+               BlueprintName = "movie"
+               ReferencedContainer = "container:movie.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "441BBDB72847532C00BFC6A9"
-               BuildableName = "mobilliumTests.xctest"
-               BlueprintName = "mobilliumTests"
-               ReferencedContainer = "container:mobillium.xcodeproj">
+               BuildableName = "movieTests.xctest"
+               BlueprintName = "movieTests"
+               ReferencedContainer = "container:movie.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "441BBDC12847532C00BFC6A9"
-               BuildableName = "mobilliumUITests.xctest"
-               BlueprintName = "mobilliumUITests"
-               ReferencedContainer = "container:mobillium.xcodeproj">
+               BuildableName = "movieUITests.xctest"
+               BlueprintName = "movieUITests"
+               ReferencedContainer = "container:movie.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -65,9 +65,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "441BBDA12847532C00BFC6A9"
-            BuildableName = "mobillium.app"
-            BlueprintName = "mobillium"
-            ReferencedContainer = "container:mobillium.xcodeproj">
+            BuildableName = "movie.app"
+            BlueprintName = "movie"
+            ReferencedContainer = "container:movie.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -82,9 +82,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "441BBDA12847532C00BFC6A9"
-            BuildableName = "mobillium.app"
-            BlueprintName = "mobillium"
-            ReferencedContainer = "container:mobillium.xcodeproj">
+            BuildableName = "movie.app"
+            BlueprintName = "movie"
+            ReferencedContainer = "container:movie.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

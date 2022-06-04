@@ -1,6 +1,6 @@
 //
 //  CollectionViewCell.swift
-//  mobillium
+//  movie
 //
 //  Created by T66140 on 1.06.2022.
 //

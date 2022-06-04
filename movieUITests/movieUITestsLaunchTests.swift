@@ -1,13 +1,13 @@
 //
-//  mobilliumUITestsLaunchTests.swift
-//  mobilliumUITests
+//  movieUITestsLaunchTests.swift
+//  movieUITests
 //
 //  Created by T66140 on 1.06.2022.
 //
 
 import XCTest
 
-class mobilliumUITestsLaunchTests: XCTestCase {
+class movieUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

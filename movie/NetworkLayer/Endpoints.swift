@@ -1,6 +1,6 @@
 //
 //  Endpoints.swift
-//  mobillium
+//  movie
 //
 //  Created by yunus emre coşkun  on 2.06.2022.
 //
